@@ -1,0 +1,134 @@
+<html>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<head>
+	<link rel = "stylesheet" href = "css/adminhpage.css">
+	<link rel = "stylesheet" href = "css/advancedsearch.css">
+</head>
+<body>
+<style>
+
+</style>
+<script src = "js/logout.js"></script>
+
+ <div class="topnav" id="myTopnav">
+  <a href="admin.html"id = "home">Home</a>
+  <a href="loginpage.html">Logout</a>
+  
+  <div class="dropdown">
+    <button class="activebtn">Book Search
+      
+    </button>
+    <div class="dropdown-content">
+	<a href="simplesearch.html">Simple Search</a>
+      <a href="advancedsearch.html"  class = "active">Advanced Search</a>
+      <a href="addbook.html">Add Book</a>
+	  <a href="removebook.html">Remove Book</a>
+      
+    </div>
+  </div>
+  
+  <div class="dropdown">
+    <button class="dropbtn">Journal
+      
+    </button>
+    <div class="dropdown-content">
+      <a href="journalsearch.html">Journal Search</a>
+     
+    </div>
+  </div>
+  
+  <div class="dropdown">
+    <button class="dropbtn">Public Website
+      
+    </button>
+    <div class="dropdown-content">
+      <a href="websitelist.html">Website List</a>
+      <a href="websitesearch.html">Website search</a>
+      
+    </div>
+  </div>
+  
+  <div class="dropdown">
+    <button class="dropbtn">Database Websites
+      
+    </button>
+    <div class="dropdown-content">
+      <a href="databaselist.html">Database List</a>
+      <a href="databasesearch.html">Database Search</a>
+    </div>
+  </div>
+ 
+</div>
+
+
+    
+          
+<div class = "box">
+<h1>Advanced Search</h1>
+
+
+<table>
+  
+  <tr>
+    <td>Doc Id:</td>
+    <td><input id="docid"type:"text"></td>
+	<td>Subject:</td>
+    <td><input id="subject"type:"text"></td>
+  </tr>
+  <tr>
+    <td>Title:</td>
+    <td><input id="title"type:"text"></td>
+	<td>Author:</td>
+    <td><input id="author"type:"text"></td>
+  </tr>
+  <tr>
+    <td>Collection:</td>
+    <td><input id="collection"type:"text"></td>
+	<td>Publisher:</td>
+    <td><input id="publisher"type:"text"></td>
+  </tr>
+  <tr>
+    <td>Domain:</td>
+    <td><input id="domain"type:"text"></td>
+	<td>Keyword:</td>
+    <td><input id="keyword"type:"text"></td>
+  </tr>
+  <tr>
+	<td>Format:</td>
+	<td>
+		<select>
+		<option value = " "disabled>Choose field</option>
+		<option value = "0">Option 1</option>
+		<option value = "1">Option 2</option>
+		<option value = "2">Option 3</option>
+		</select></td>
+		<td>Type:</td>
+	<td>
+		<select>
+		<option value = " "disabled>Choose field</option>
+		<option value = "0">Option 1</option>
+		<option value = "1">Option 2</option>
+		<option value = "2">Option 3</option>
+		</select></td>
+  </tr>
+  
+  <tr>
+	<td>Order By:</td>
+	<td>
+		<select>
+		<option value = " "disabled>Choose field</option>
+		<option value = "0">Option 1</option>
+		<option value = "1">Option 2</option>
+		<option value = "2">Option 3</option>
+		</select></td>
+  </tr>
+</table>
+	<button type="button" class = "btn">Search</button>		
+
+
+</div>
+
+</body>
+</html>
