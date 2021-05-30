@@ -1,2 +1,2 @@
 # DigitalLibraryNAV
-Navigation(Frontend) for gigital library
+Navigation(Frontend) for digital library
